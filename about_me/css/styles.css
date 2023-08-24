@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Thiết lập giao diện cơ bản */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+welcome-p {
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+}
+
+#about,
+#education,
+#achievements,
+#hobbies {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: #333;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  gap: 12px;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+}
